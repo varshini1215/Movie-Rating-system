@@ -1,0 +1,133 @@
+.head{
+  /* text-align: center; */
+  font-weight: bolder;
+  font-size: 45px;
+  color:black;
+  }
+  .head:hover{
+    transform: scale(1.1);
+    color: salmon;
+  }
+  .mainbox{
+    align-items: center;
+    justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      /* margin:50px; */
+      grid-gap: 34px;
+  }
+  .border{
+      /* border:4px solid black; */
+      box-shadow: 6px 6px 8px 8px grey, 10px 10px 8px 8px orchid, 15px 15px 8px  salmon;
+      height:1050px;
+      width:450px;
+  }
+  .border:hover{
+    transform: scale(1.0);
+  }
+  .content{
+      text-align: center;
+  }
+  button{
+      padding: 5px;
+      width:90px;
+      height: 40px;
+  }
+  button:hover{
+      transform:scale(1.0);
+  }
+  .movie{
+    color:rgb(4, 179, 248);
+  }
+  .movie:hover{
+      transform: scale(1.3);
+      color: rgb(20, 245, 57);
+  }
+  p{
+      font-size: 35px;
+      color: orchid;
+      font-weight: 900;
+  }
+  .click{
+      color:deeppink;
+      font-size: 25px;
+      text-align: center;
+  }
+  * {
+    /* box-sizing: border-box; */
+    font-family: "papyrus";
+    font-weight: bold;
+  }
+  /* body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #ffd195, #ffb283);
+  } */
+  .rating-box {
+    position: relative;
+    bottom:30px;
+    background: white;
+    padding: 25px 50px 35px;
+  }
+  .how{
+    color: seagreen;
+    font-size:30px;
+  }
+  .rating-container {
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 10px 6px 8px 10px grey;
+    height: 50px;
+    width:300px;
+    padding: 15px;
+    background-color:lightpink;
+    margin-left: 45px;
+    margin-top:5px;
+    /* margin-top: 20px; */
+    border-radius: 5%;
+  
+  }
+  .rating-container span {
+    font-size: 38px;
+    /* border-radius: 10%; */
+  } 
+  .star:hover{
+    transform: scale(1.1);
+  }
+  .time{
+    background-color: salmon;
+    color: black;
+    box-shadow: 6px 6px 6px 6px;
+    border-radius: 10%;
+    /* position: absolute; */
+     /* margin-left:950px;
+     margin-top: 20px; */
+    /* top:60px; */
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+  }
+  .time:hover{
+    transform: scale(1.2);
+  }
+  .review{
+    background-color: yellowgreen;
+    color: black;
+    box-shadow: 6px 6px 6px 6px;
+    border-radius: 10%;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+  }
+  .review:hover{
+    transform: scale(1.1);
+  }
+  h3{
+    color: seagreen;
+    margin-top: 50px;
+    font-size: 35px;
+  }

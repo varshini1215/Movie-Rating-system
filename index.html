@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mrs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="mrs.js"></script>
+    
+</head>
+<body>
+    <center>
+        <button class="time" onclick="document.getElementById('date').innerHTML=Date()">The time is?</button>
+        <h4 id="date"></h4>
+    </center>
+        <center>
+        <h1 class="head"><b>MOVIE RATING SYSTEM</b></h1>
+    </center>
+        <div class="mainbox">
+            <div class="border" >
+                <a href="https://www.youtube.com/watch?v=1z6icKPsnjc" target="_blank">
+                    <button> <img src="irugapattru.jpg" alt="" style="height: 450px; width: 440px;"></button>
+                </a>
+                <p class="click"><u>Click the image to watch trailer</u></p>
+                <div class="content">
+                <h1 class="movie">IRUGAPATRU</h1>
+                <p><b>Rating</b></p>
+                <button class="review" onclick="displayContent()">Click me</button>
+                <h3 id="demo"></h3>
+                    <div class="rating-container star" onclick="handleRating(event)">
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                    </div>
+            </div>
+            </div>
+       
+            <div class="border">
+                <div class="images">
+                    <a href="https://www.youtube.com/watch?v=l6Yarg2FMeI" target="_blank">
+                <button><img src="heysinamika.webp" alt="" style="height: 450px; width: 440px;"></button>
+            </a>
+            <p class="click"><u class="uline">Click the image to watch trailer</u></p>
+        </div>
+                <div class="content">
+                <h1 class="movie">HEY SINAMIKA</h1>
+                <p><b>Rating</b></p>
+                <button class="review" onclick="display()">Click me</button>
+                <h3 id="demo1"></h3>
+                    <div class="rating-container star" onclick="handleRating(event)">
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                    </div>
+            </div>
+            </div>
+            <div class="border">
+                <div class="images">
+                <a href="https://www.youtube.com/watch?v=BRWghEaXQPE" target="_blank">
+                    <button><img src="pokkiri.jpg" alt="" style="height: 450px; width: 440px;"></button>
+                </a>
+                <p class="click"><u>Click the image to watch trailer</u></p>
+            </div>
+                <div class="content">
+                <h1 class="movie">POKKIRI</h1>
+                <p><b>Rating</b></p>
+                <button class="review" onclick="display1()">Click me</button>
+                <h3 id="demo2"></h3>
+                    <div class="rating-container star" onclick="handleRating(event)">
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                    </div>
+            </div>
+            </div>
+            <div class="border">
+                <div class="images">
+                <a href="https://www.youtube.com/watch?v=u0zoi8NgD44" target="_blank">
+                    <button><img src="three.jpg" alt="" style="height: 450px; width: 440px;"></button>
+                </a>
+                <p class="click"><u>Click the image to watch trailer</u></p>
+            </div>
+                <div class="content">
+                <h1 class="movie">THREE</h1>
+                <p><b>Rating</b></p>
+                <button class="review" onclick="display2()">Click me</button>
+                <h3 id="demo3"></h3>
+                    <div class="rating-container star" onclick="handleRating(event)">
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                        <span>&#9787;</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <script src="mrs.js"></script>
+    <script>
+        function displayContent() {
+        document.getElementById("demo").innerHTML="Your rating matters";
+      }
+      function display() {
+        document.getElementById("demo1").innerHTML="Your rating matters";
+      }
+      function display1() {
+        document.getElementById("demo2").innerHTML="Your rating matters";
+      }
+      function display2() {
+        document.getElementById("demo3").innerHTML="Your rating matters";
+      }
+    </script>
+    </body>
+    </html>
+
+</body>
+</html>
